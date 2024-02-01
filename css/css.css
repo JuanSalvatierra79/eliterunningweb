@@ -86,4 +86,23 @@ body {
   border-radius: 50%; /* Añade bordes redondeados para darle forma de círculo */
 }
 
+@media only screen and (max-width: 600px) {
+  .texto {
+    font-size: 50px; /* Ajusta el tamaño del texto para pantallas pequeñas */
+  }
 
+  .image-links {
+    display: flex;
+    flex-direction:row; /* Cambia la dirección del flexbox para una disposición vertical */
+    
+  }
+
+  .image-links a {
+    margin: 10px 0; /* Añade espacio entre las imágenes en pantallas pequeñas */
+  }
+
+  .image-links img {
+    width: 100%; /* Hace que las imágenes ocupen el 100% del ancho del contenedor */
+    height: auto; /* Ajusta automáticamente la altura proporcionalmente */
+  }
+}
