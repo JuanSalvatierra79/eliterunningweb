@@ -1,0 +1,89 @@
+
+* {
+	margin:0;
+	padding:0;
+  }
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.texto{
+  font-size: 100px;
+  color: #f8e216;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Grape Nuts", cursive;
+  font-weight: 300px;
+  font-style: normal;
+  }
+  
+
+/* Estilos para las imágenes */
+.image-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.image-links a {
+  margin: 0 20px;
+  position: relative;
+}
+
+.image-links img {
+  width: 380px; /* Tamaño inicial de las imágenes */
+  height: 380px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+/* Cambiar el tamaño al pasar el ratón */
+.image-links img:hover {
+  transform: scale(1.1); /* Aumentar el tamaño al pasar el ratón */
+  filter: grayscale(150%); /* Convertir a blanco y negro */
+}
+
+/* Estilos del footer */
+
+.social ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  margin-top: 10px;
+}
+
+.social li {
+  margin-right: 15px; /* Puedes ajustar la cantidad de espacio según tus preferencias */
+  display: inline-block;
+}
+
+.social li:last-child {
+  margin-right: 0; /* Elimina el margen derecho para el último elemento */
+}
+
+.social a {
+  display: block;
+  background-color: yellow; /* Color de fondo amarillo */
+  padding: 5px; /* Añade espacio alrededor del ícono */
+  border-radius: 50%; /* Añade bordes redondeados para darle forma de círculo */
+}
+
+.social img {
+  display: block;
+  width: 20px;
+  height: 20px; /* Asegura que la altura sea igual al ancho para mantener la forma de círculo */
+  border-radius: 50%; /* Añade bordes redondeados para darle forma de círculo */
+}
+
+
