@@ -120,7 +120,7 @@ body {
       }
     
   .image-links img {
-        width: 90%; /* Ajusta el ancho de las imágenes */
+        width: 70%; /* Ajusta el ancho de las imágenes */
         height: auto; /* Ajusta automáticamente la altura proporcionalmente */
         border-radius: 10px;
         transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
