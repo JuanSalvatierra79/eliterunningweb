@@ -14,9 +14,6 @@ body {
   flex-direction: column;
 }
 
-
-
-
 .texto{
   font-size: 100px;
   color: #f8e216;
@@ -29,6 +26,7 @@ body {
   
 
 /* Estilos para las imágenes */
+
 .image-links {
   display: flex;
   justify-content: center;
@@ -137,3 +135,124 @@ body {
     
     
     }
+
+/* Estilos para las sedes */
+
+.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between; }
+
+
+  .container-fluid {
+    list-style-type: none;
+    background-color: #000000;
+    padding: 0;
+    color: #f8e216;
+  }
+
+  .texto2{
+    font-size: 70px;
+    color: #f8e216;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Grape Nuts", cursive;
+    font-weight: 200px;
+    font-style: normal;
+    padding-bottom: 30px;
+    }
+
+.galeriasedes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 10px;
+  margin-bottom: 30px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". ."
+    ". ."
+    ". .";
+  
+} 
+
+.galeriasedes div {
+  width: 302px;
+  height: 301px;
+  padding: 0px;
+  margin-left: 50px;
+  
+}
+
+.galeriasedes img{
+    object-fit:fill;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+    object-position: center center;
+    border-width:10%;
+  border-style: solid;
+  border-color: #f8e216;
+
+}
+
+
+.navbar-nav {
+  display: flex;
+  background-color: #000000; }
+
+.nav-item {
+  display: inline-block;
+  padding: .5rem; }
+
+.nav-link {
+  color:  #f8e216;
+  font-family: "Grape Nuts", cursive;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px; }
+
+
+.nav-item a:hover {
+  color: black;
+  background-color: #F2CE00;
+  border-radius: 100%; }
+
+  /* styles media query sedes */
+
+@media only screen and (max-width: 768px) {
+
+  .head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; } 
+ 
+  .social ul {
+      display: flex;
+      flex-direction: row;
+      padding-left: 44%; }  
+ 
+    .navbar{
+      text-align: center;
+       } 
+  
+  .galeriasedes {  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "."
+      "."
+      "."
+      "."
+      "."
+      ".";
+  }
+}  
+
+
