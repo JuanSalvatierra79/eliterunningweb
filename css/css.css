@@ -194,8 +194,8 @@ body {
     padding: 0px;
     object-position: center center;
     border-width:10%;
-  border-style: solid;
-  border-color: #f8e216;
+    border-style: solid;
+    border-color: #f8e216;
 
 }
 
@@ -243,7 +243,9 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px 20px;
+    gap: 15px 15px;
+    height: 100%;
+    width: 100%; 
     grid-auto-flow: row;
     grid-template-areas:
       "."
